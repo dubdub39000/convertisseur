@@ -17,7 +17,6 @@ public:
     //////////construct//////
     Mdonnees();
     /////////getter and setter////////
-void setdata( int &kilometre,  int &miles);
 double *getMultconvert() const;
 };
 

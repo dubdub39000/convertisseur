@@ -17,8 +17,6 @@ QObject::connect(view->getmil(), &QSlider::valueChanged, this, &Presenter::majmi
 
 view->show();
 /*****************************************************************/
-
-
 }
 
 

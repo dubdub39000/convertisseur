@@ -8,10 +8,6 @@ Mdonnees::Mdonnees() : QObject() {
 *multconvert=0.6213;
 }
 
-void Mdonnees::setdata(int &kilometre,int &miles) {
-
-}
-
 double *Mdonnees::getMultconvert() const {
     return multconvert;
 }

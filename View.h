@@ -26,8 +26,6 @@ public :
 
     QLabel *getKilVal() const;
     QLabel *getMilesVal() const;
-
-    void setMil(QSlider *mil);
 };
 
 
