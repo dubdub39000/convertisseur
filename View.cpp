@@ -13,8 +13,10 @@ View::View(): QFrame() {
     MilesVal=new QLabel();
     kil=new QSlider();
     kil->setOrientation(Qt::Orientation::Horizontal);
+    kil->setRange(0,5000);
     mil=new QSlider();
     mil->setOrientation(Qt::Orientation::Horizontal);
+    View::mil->setRange(0,3107);
 
 
 /*****************************places dans la fenêtre*************************/
