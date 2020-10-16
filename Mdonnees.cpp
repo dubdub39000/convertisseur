@@ -13,5 +13,3 @@ double *Mdonnees::getMultconvert() const {
 }
 
 
-
-

@@ -13,10 +13,10 @@ View::View(): QFrame() {
     MilesVal=new QLabel();
     kil=new QSlider();
     kil->setOrientation(Qt::Orientation::Horizontal);
-    //kil->setRange(0,5000);
+    kil->setRange(0,5000);
     mil=new QSlider();
     mil->setOrientation(Qt::Orientation::Horizontal);
-    //mil->setRange(0,3107);
+    mil->setRange(0,3107);
 
 
 /*****************************places dans la fenêtre*************************/
@@ -26,8 +26,6 @@ slide->addRow(new QLabel("Kilometres"));
 slide->addRow(KilVal, kil);
 slide->addRow(new QLabel ("Miles"));
 slide->addRow(MilesVal, mil);
-
-
 
 setLayout (slide); //met en place le gest.placmt
 
